@@ -12,7 +12,7 @@ func NewConfig() *Config {
 	return &Config{
 		Name:        env("APP_NAME", "Go Api"),
 		Port:        env("APP_PORT", "8000"),
-		DatabaseURI: env("DATABASE_URI", "postgres://hamid:ha141272@localhost:5432/hamid"),
+		DatabaseURI: env("DATABASE_URI", ""),
 	}
 }
 
